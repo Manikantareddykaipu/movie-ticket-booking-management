@@ -1,110 +1,113 @@
-# 🎬 Movie Ticket Booking Management System
+# 🎬 Movie Ticket Booking System
 
-A simple Java console-based application to manage movie ticket bookings. This project demonstrates the use of Java fundamentals such as classes, objects, methods, Scanner, conditional statements, loops, and object-oriented programming concepts.
+## Overview
 
-## 📌 Features
+The **Movie Ticket Booking System** is a simple Java console application that allows users to manage movie ticket bookings. Users can view movie details, book tickets, cancel tickets, and see the remaining available seats. The application is developed using Java and demonstrates Object-Oriented Programming (OOP) concepts.
 
-- 🎥 View available movies
-- 🎟️ Book movie tickets
-- 👥 Enter customer details
-- 💺 Select the number of tickets
-- 💰 Calculate the total ticket price
-- 📄 Display booking confirmation
-- ❌ Exit the application
+## Features
 
-## 🛠️ Technologies Used
+* Create a movie with:
 
-- Java
-- Scanner Class
-- Object-Oriented Programming (OOP)
-- Eclipse IDE
+  * Movie ID
+  * Movie Name
+  * Ticket Price
+  * Available Seats
+* View movie details
+* Book movie tickets
+* Calculate the total ticket amount
+* Cancel booked tickets
+* Display the remaining available seats
+* Validate invalid ticket bookings and cancellations
+* Handle invalid menu input using exception handling
 
-## 📂 Project Structure
+## Technologies Used
 
+* Java
+* Eclipse IDE
+* Scanner Class
+* Object-Oriented Programming (OOP)
+* Exception Handling
+
+## Project Structure
+
+```text
+src
+└── com.bookticket
+    ├── Movie.java
+    └── MovieApp.java
 ```
-MovieTicketBookingManagement/
-│── Movie.java
-│── Customer.java
-│── Ticket.java
-│── Booking.java
-│── Main.java
-```
 
-> *(Update the file names according to your project.)*
+## Concepts Practiced
 
-## ▶️ How to Run
+* Classes and Objects
+* Constructors
+* Encapsulation
+* Getters and Setters
+* Methods
+* User Input using Scanner
+* Packages
+* Menu-Driven Programming
+* Exception Handling
+* Conditional Statements
+* Loops
 
-1. Clone the repository
+## How to Run
+
+1. Clone the repository.
 
 ```bash
 git clone https://github.com/Manikantareddykaipu/movie-ticket-booking-management.git
 ```
 
-2. Open the project in Eclipse or IntelliJ IDEA.
+2. Open the project in Eclipse or any Java IDE.
 
-3. Compile and run the `Main.java` file.
+3. Run the `MovieApp.java` file.
 
-4. Follow the on-screen menu to book movie tickets.
+4. Enter:
 
-## 📸 Sample Output
+   * Movie ID
+   * Movie Name
+   * Ticket Price
+   * Available Seats
 
+5. Select an option from the menu:
+
+   * View Movie Details
+   * Book Ticket
+   * Cancel Ticket
+   * Exit
+
+## Sample Output
+
+```text
+Enter Movie ID: 101
+Enter Movie Name: Pushpa2
+Enter Ticket Price: 200
+Enter Available Seats: 100
+
+===== Movie Ticket Booking System =====
+
+1. View Movie Details
+2. Book Ticket
+3. Cancel Ticket
+4. Exit
+
+Enter your choice: 2
+
+Enter number of tickets to book: 3
+
+3 tickets booked
+total Amount: 600.0
+Tickets Successfully Booked
+Remaining Seats: 97
 ```
-===== Movie Ticket Booking =====
 
-1. Book Ticket
-2. View Movies
-3. Exit
-
-Enter your choice: 1
-
-Enter Customer Name: John
-Enter Movie Name: Leo
-Enter Number of Tickets: 2
-
-Booking Successful!
-
-Customer : John
-Movie    : Leo
-Tickets  : 2
-Total    : ₹400
-```
-
-## 📚 Concepts Practiced
-
-- Java Basics
-- Variables & Data Types
-- Scanner Class
-- Methods
-- Conditional Statements
-- Loops
-- Classes & Objects
-- Constructors
-- Encapsulation
-- Menu-Driven Programs
-
-## 🎯 Learning Outcome
-
-This project helped me understand how to build a Java console application using Object-Oriented Programming principles and user input handling with the Scanner class.
-
-## 🚀 Future Improvements
-
-- Seat Selection
-- User Login
-- Admin Panel
-- Movie Management
-- Payment Integration
-- Database (MySQL)
-- GUI using JavaFX or Swing
-- Spring Boot REST API
-- Online Ticket Booking
-
-## 👨‍💻 Author
+## Author
 
 **Manikanta Reddy**
 
-- GitHub: https://github.com/Manikantareddykaipu
-- LinkedIn: *(Add your LinkedIn profile link)*
+GitHub: https://github.com/Manikantareddykaipu
 
 ---
 
-⭐ If you like this project, don't forget to star the repository!
+⭐ If you found this project useful, consider giving it a star on GitHub!
